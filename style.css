@@ -1,0 +1,44 @@
+body {
+    background-color: black !important; 
+}
+
+.Container {
+    background-color: black;
+}
+
+.card-img {
+    height: 15rem;
+    border-radius: 1.5rem;
+}
+
+
+ .card-body {
+    background-color: black;
+
+}  
+
+.description {
+    background-color: #D7E5CA;
+    color: black;
+} 
+
+
+
+.title {
+    color: #F5E8B7;
+    /* background-color: yellow; */
+}
+
+.mains {
+    transform: scale(1); /* Initial scale is 1 */
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    transition: transform 0.3s ease; 
+}
+.mains:hover {
+    transform: scale(1.1);
+    
+}
+
+
+
